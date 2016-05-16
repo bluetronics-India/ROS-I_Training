@@ -1,0 +1,143 @@
+		
+	Locals		
+		idx	3	int
+		orig_name	"link_1"	QString
+		property		urdf_editor::LinkProperty
+			[QObject]		QObject
+			collision_property_	(null)	boost::shared_ptr<urdf_editor::LinkCollisionProperty>
+			factory_		QtVariantEditorFactory
+			inertial_property_	(null)	boost::shared_ptr<urdf_editor::LinkInertialProperty>
+			link_		boost::shared_ptr<urdf::Link>
+				data		boost::shared_ptr<urdf::Link>::element_type
+					child_joints	<0 items>	std::vector<boost::shared_ptr<urdf::Joint>, std::allocator<boost::shared_ptr<urdf::Joint> > >
+					child_links	<0 items>	std::vector<boost::shared_ptr<urdf::Link>, std::allocator<boost::shared_ptr<urdf::Link> > >
+					collision	(null)	boost::shared_ptr<urdf::Collision>
+					collision_array	<0 items>	std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > >
+					collision_groups	<0 items>	std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > > > > > >
+					inertial	(null)	boost::shared_ptr<urdf::Inertial>
+					name	"link_"	std::string
+						[0]	409824291180	size_t
+						[1]	48	size_t
+						[2]	33	size_t
+						[3]	25769803776	size_t
+						[4]	0	size_t
+					parent_joint	(null)	boost::shared_ptr<urdf::Joint>
+					parent_link_		boost::weak_ptr<urdf::Link>
+					visual	(null)	boost::shared_ptr<urdf::Visual>
+					visual_array	<0 items>	std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > >
+					visual_groups	<0 items>	std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > > > > > >
+				weakcount	1	int
+				usecount	2	int
+			loading_	false	bool
+			manager_		QtVariantPropertyManager
+			name_item_		QtVariantProperty
+			staticMetaObject		QMetaObject
+			staticMetaObjectExtraData		QMetaObjectExtraData
+			top_item_	0x1	QtProperty *
+			visual_property_	(null)	boost::shared_ptr<urdf_editor::LinkVisualProperty>
+			[properties]	<>0 items>	
+			[methods]	<4 items>	
+			[signals]	<2 items>	
+		this		urdf_editor::URDFProperty
+			[QObject]		QObject
+			browser_parent_		QWidget
+			ctree_to_joint_property_	<2 items>	QMap<QTreeWidgetItem*, boost::shared_ptr<urdf_editor::JointProperty> >
+			joint_child_to_ctree_	<2 items>	QMap<boost::shared_ptr<urdf::Link>, QTreeWidgetItem*>
+			joint_names_	<2 items>	QStringList
+			joint_property_to_ctree_	<2 items>	QMap<urdf_editor::JointProperty*, QTreeWidgetItem*>
+			joint_root_		QTreeWidgetItem
+			link_names_	<4 items>	QStringList
+			link_property_to_ltree_	<4 items>	QMap<urdf_editor::LinkProperty*, QTreeWidgetItem*>
+				[0]		QMapNode<urdf_editor::LinkProperty*, QTreeWidgetItem*>
+					key		urdf_editor::LinkProperty
+						[QObject]		QObject
+						collision_property_	(null)	boost::shared_ptr<urdf_editor::LinkCollisionProperty>
+						factory_		QtVariantEditorFactory
+						inertial_property_	(null)	boost::shared_ptr<urdf_editor::LinkInertialProperty>
+						link_		boost::shared_ptr<urdf::Link>
+							data		boost::shared_ptr<urdf::Link>::element_type
+								child_joints	<0 items>	std::vector<boost::shared_ptr<urdf::Joint>, std::allocator<boost::shared_ptr<urdf::Joint> > >
+								child_links	<0 items>	std::vector<boost::shared_ptr<urdf::Link>, std::allocator<boost::shared_ptr<urdf::Link> > >
+								collision	(null)	boost::shared_ptr<urdf::Collision>
+								collision_array	<0 items>	std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > >
+								collision_groups	<0 items>	std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > > > > > >
+								inertial	(null)	boost::shared_ptr<urdf::Inertial>
+								name	"link_"	std::string
+								parent_joint	(null)	boost::shared_ptr<urdf::Joint>
+								parent_link_		boost::weak_ptr<urdf::Link>
+								visual	(null)	boost::shared_ptr<urdf::Visual>
+								visual_array	<0 items>	std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > >
+								visual_groups	<0 items>	std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > > > > > >
+							weakcount	1	int
+							usecount	2	int
+						loading_	false	bool
+						manager_		QtVariantPropertyManager
+						name_item_		QtVariantProperty
+						staticMetaObject		QMetaObject
+						staticMetaObjectExtraData		QMetaObjectExtraData
+						top_item_	0x1	QtProperty *
+						visual_property_	(null)	boost::shared_ptr<urdf_editor::LinkVisualProperty>
+						[properties]	<>0 items>	
+						[methods]	<4 items>	
+						[signals]	<2 items>	
+					value		QTreeWidgetItem
+				[1]		QMapNode<urdf_editor::LinkProperty*, QTreeWidgetItem*>
+				[2]		QMapNode<urdf_editor::LinkProperty*, QTreeWidgetItem*>
+				[3]		QMapNode<urdf_editor::LinkProperty*, QTreeWidgetItem*>
+					key		urdf_editor::LinkProperty
+						[QObject]		QObject
+						collision_property_	(null)	boost::shared_ptr<urdf_editor::LinkCollisionProperty>
+						factory_		QtVariantEditorFactory
+						inertial_property_	(null)	boost::shared_ptr<urdf_editor::LinkInertialProperty>
+						link_		boost::shared_ptr<urdf::Link>
+							data		boost::shared_ptr<urdf::Link>::element_type
+								child_joints	<0 items>	std::vector<boost::shared_ptr<urdf::Joint>, std::allocator<boost::shared_ptr<urdf::Joint> > >
+								child_links	<0 items>	std::vector<boost::shared_ptr<urdf::Link>, std::allocator<boost::shared_ptr<urdf::Link> > >
+								collision	(null)	boost::shared_ptr<urdf::Collision>
+								collision_array	<0 items>	std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > >
+								collision_groups	<0 items>	std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Collision>, std::allocator<boost::shared_ptr<urdf::Collision> > > > > > >
+								inertial	(null)	boost::shared_ptr<urdf::Inertial>
+								name	"right_leg"	std::string
+								parent_joint		boost::shared_ptr<urdf::Joint>
+								parent_link_		boost::weak_ptr<urdf::Link>
+								visual		boost::shared_ptr<urdf::Visual>
+									data		boost::shared_ptr<urdf::Visual>::element_type
+										geometry		boost::shared_ptr<urdf::Geometry>
+										group_name	"default"	std::string
+										material		boost::shared_ptr<urdf::Material>
+										material_name	"white"	std::string
+										origin		urdf::Pose
+									weakcount	1	int
+									usecount	4	int
+								visual_array	<1 items>	std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > >
+								visual_groups	<1 items>	std::map<std::basic_string<char, std::char_traits<char>, std::allocator<char> >, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > > >, std::less<std::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::basic_string<char, std::char_traits<char>, std::allocator<char> > const, boost::shared_ptr<std::vector<boost::shared_ptr<urdf::Visual>, std::allocator<boost::shared_ptr<urdf::Visual> > > > > > >
+							weakcount	1	int
+							usecount	4	int
+						loading_	true	bool
+						manager_		QtVariantPropertyManager
+						name_item_		QtVariantProperty
+						staticMetaObject		QMetaObject
+						staticMetaObjectExtraData		QMetaObjectExtraData
+						top_item_	0x3ff0000000000000	QtProperty *
+						visual_property_		boost::shared_ptr<urdf_editor::LinkVisualProperty>
+						[properties]	<>0 items>	
+						[methods]	<4 items>	
+						[signals]	<2 items>	
+					value		QTreeWidgetItem
+			link_root_		QTreeWidgetItem
+			ltree_to_link_property_	<4 items>	QMap<QTreeWidgetItem*, boost::shared_ptr<urdf_editor::LinkProperty> >
+			model_		boost::shared_ptr<urdf::ModelInterface>
+			property_editor_		boost::shared_ptr<QtTreePropertyBrowser>
+			root_		QTreeWidgetItem
+			rviz_widget_		urdf_editor::MyRviz
+			staticMetaObject		QMetaObject
+			staticMetaObjectExtraData		QMetaObjectExtraData
+			tree_widget_		QTreeWidget
+			[properties]	<>0 items>	
+			[methods]	<6 items>	
+			[signals]	<0 items>	
+		val	"link_"	QVariant &
+	Inspector		
+	Expressions		
+	Return Value		
+	Tooltip		
